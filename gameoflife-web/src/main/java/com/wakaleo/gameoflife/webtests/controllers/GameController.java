@@ -22,7 +22,7 @@ public class GameController {
         ModelAndView mav = new ModelAndView("game/edit");
         Universe universe = new Universe();
         mav.addObject("universe", universe);
-        thinkABit(250);
+        thinkABit(300);
         return mav;
     }
 
